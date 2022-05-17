@@ -124,6 +124,8 @@ main::IO()
 main=undefined
 
 {-
+To Run
+    parseFile "./schedule.json" jsonValue
 To extract data
     Just (JsonObject xs) <- parseFile "./schedule.json" jsonValue
     let JsonArray ys = snd $ head xs
